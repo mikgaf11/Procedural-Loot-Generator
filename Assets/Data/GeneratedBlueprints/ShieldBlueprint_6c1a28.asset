@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd8132fb5d0b4c469958be84ddd32f7, type: 3}
+  m_Name: ShieldBlueprint_6c1a28
+  m_EditorClassIdentifier: 
+  shieldId: 6c1a289c-ebeb-4cae-af7c-15a29ee620ea
+  shieldType: TraingleShield
+  basePart: Wood
+  rimPart: Gold
+  accessoryPart: InvertedCross
+  vfxPart: None
+  defense: 48
+  blockChance: 0.31
+  durability: 192

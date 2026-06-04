@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd8132fb5d0b4c469958be84ddd32f7, type: 3}
+  m_Name: ShieldBlueprint_ac3eee
+  m_EditorClassIdentifier: 
+  shieldId: ac3eee19-d05b-423c-a977-f4217b894601
+  shieldType: RoundShield
+  basePart: IronRoundBase
+  rimPart: IronRim
+  accessoryPart: Inverted Cross
+  vfxPart: None
+  defense: 80
+  blockChance: 0.14
+  durability: 57

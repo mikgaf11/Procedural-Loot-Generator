@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71385187fc2ef44ea7172e7d5ddbb70, type: 3}
+  m_Name: TriangleShieldTemplate
+  m_EditorClassIdentifier: 
+  shieldType: TraingleShield
+  baseParts:
+  - partName: Wood
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.8
+    prefab: {fileID: 8596058116511856195, guid: a56b48f33d3963a42b2bfa2b0858229c, type: 3}
+  - partName: Metal
+    positionOffset: {x: 2, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.4
+    prefab: {fileID: 2621416832440705389, guid: 52f520529ec7038448200091059e4e47, type: 3}
+  - partName: Gold
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 1400043328889160039, guid: ef7cd0ebd39dd224386e3ca47d40ec99, type: 3}
+  - partName: Metal_Cracked
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.3
+    prefab: {fileID: 2243367056853531070, guid: 66c98619c767f684388aff7c1dd90baa, type: 3}
+  rimParts:
+  - partName: Wood
+    positionOffset: {x: 0, y: 0, z: 0.04}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.8
+    prefab: {fileID: 6910916234467842650, guid: e71b7da52af503c478b96bafd6e7adae, type: 3}
+  - partName: Metal
+    positionOffset: {x: 0, y: 0, z: 0.04}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.4
+    prefab: {fileID: 5690526370450190480, guid: e2358500d9f081c4abfb40cb67b6dbab, type: 3}
+  - partName: Gold
+    positionOffset: {x: 0, y: 0, z: 0.04}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 1706064938126031976, guid: 4eefbf0263215ed41a0c23a38c2fa446, type: 3}
+  accessoryParts:
+  - partName: Wolf
+    positionOffset: {x: 0, y: 0, z: 0.1}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.2
+    prefab: {fileID: 7751138386218590278, guid: c440278460bfe1c43a3be719b5062068, type: 3}
+  - partName: Spikes
+    positionOffset: {x: 0, y: 0, z: 0.1}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.5
+    prefab: {fileID: 3426666414930829958, guid: a5cbb5e056769f7479a8e10b614ae88d, type: 3}
+  - partName: Cross
+    positionOffset: {x: 0, y: 0, z: 0.1}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.5
+    prefab: {fileID: 6566246568514952281, guid: 5db53da62eb7c914295f7760459ce9f8, type: 3}
+  - partName: InvertedCross
+    positionOffset: {x: 0, y: 0, z: 0.1}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.5
+    prefab: {fileID: 6717928790686338449, guid: eae6d62778ba7df469df6a689387c817, type: 3}
+  - partName: Arrows
+    positionOffset: {x: 0, y: 0, z: 0.3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.6
+    prefab: {fileID: 3452930092507796788, guid: 5ba01391d9f0ecf4ca690be67da41673, type: 3}
+  vfxParts: []
+  defenseRange:
+    name: Defense
+    minValue: 10
+    maxValue: 100
+    currentValue: 55
+    rarityWeight: 0.3
+  blockRange:
+    name: BlockChance
+    minValue: 0.1
+    maxValue: 0.5
+    currentValue: 0.3
+    rarityWeight: 0.5
+  durabilityRange:
+    name: Durability
+    minValue: 50
+    maxValue: 200
+    currentValue: 125
+    rarityWeight: 0.7

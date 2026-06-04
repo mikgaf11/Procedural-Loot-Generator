@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71385187fc2ef44ea7172e7d5ddbb70, type: 3}
+  m_Name: RoundShieldTemplate
+  m_EditorClassIdentifier: 
+  shieldType: RoundShield
+  baseParts:
+  - partName: WoodenRoundBase
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.8
+    prefab: {fileID: 212910601101964892, guid: 8205d73faafd8234d88bd9480cdd023b, type: 3}
+  - partName: IronRoundBase
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.4
+    prefab: {fileID: 1647819950354589763, guid: e2091026aecdb6d46939bcdf39f6f1b7, type: 3}
+  - partName: GoldRoundBase
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 6718348875507760848, guid: 1a9a23f34f09bdb4e8e1bf31e41caeee, type: 3}
+  rimParts:
+  - partName: WoodRim
+    positionOffset: {x: 0, y: 0, z: 0.03}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.8
+    prefab: {fileID: 8182339412208211028, guid: 034c7553084fd0a4b8d2552f6a19fb0a, type: 3}
+  - partName: IronRim
+    positionOffset: {x: 0, y: 0, z: 0.03}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.4
+    prefab: {fileID: 4092954178600425103, guid: 454b39a8cbd514d409c83bcdd41c3bd1, type: 3}
+  - partName: GoldRim
+    positionOffset: {x: 0, y: 0, z: 0.03}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 2212492230600385562, guid: a65da3c60cf06884ca3d6e102f006688, type: 3}
+  accessoryParts:
+  - partName: Wolf
+    positionOffset: {x: 0, y: -0.03, z: 0.07}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.3
+    prefab: {fileID: 7751138386218590278, guid: c440278460bfe1c43a3be719b5062068, type: 3}
+  - partName: Cross
+    positionOffset: {x: 0, y: 0, z: 0.05}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.3
+    prefab: {fileID: 6566246568514952281, guid: 5db53da62eb7c914295f7760459ce9f8, type: 3}
+  - partName: Big Cross
+    positionOffset: {x: 0, y: 0, z: 0.05}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 7124651664814637871, guid: 1ad61e7e6cf9f164c89a6fa83eba7c63, type: 3}
+  - partName: Inverted Cross
+    positionOffset: {x: 0, y: 0, z: 0.04}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.5
+    prefab: {fileID: 6717928790686338449, guid: eae6d62778ba7df469df6a689387c817, type: 3}
+  - partName: Spikes
+    positionOffset: {x: 0, y: 0, z: 0.05}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.6
+    prefab: {fileID: 3426666414930829958, guid: a5cbb5e056769f7479a8e10b614ae88d, type: 3}
+  vfxParts:
+  - partName: Lightning
+    positionOffset: {x: 0, y: 0, z: 1}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 7131401307255788800, guid: 4d9a3b35b3bc07649b697df7fb497b6d, type: 3}
+  - partName: Purple Aura
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.2
+    prefab: {fileID: 5607819269926399345, guid: 45e0f06c750176947862c10346226439, type: 3}
+  - partName: Red Aura
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 4617036660772024948, guid: 52c7d057cba585641bb68312c10d7791, type: 3}
+  - partName: Green Aura
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 3992058561654064293, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
+  - partName: Yellow Aura
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.1
+    prefab: {fileID: 4752457369876416285, guid: 5ad33d58a66ab154a89c9e88255601e5, type: 3}
+  - partName: None
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    rarityWeight: 0.8
+    prefab: {fileID: 0}
+  defenseRange:
+    name: Defense
+    minValue: 10
+    maxValue: 100
+    currentValue: 55
+    rarityWeight: 0.3
+  blockRange:
+    name: BlockChance
+    minValue: 0.1
+    maxValue: 0.5
+    currentValue: 0.3
+    rarityWeight: 0.5
+  durabilityRange:
+    name: Durability
+    minValue: 50
+    maxValue: 200
+    currentValue: 125
+    rarityWeight: 0.7
